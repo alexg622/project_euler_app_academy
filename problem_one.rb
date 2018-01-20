@@ -1,5 +1,5 @@
 # Multiples of 3 and 5
-# Problem 1 
+# Problem 1
 
 def sum_of_multiples(num)
   counter = 0
@@ -13,4 +13,5 @@ def sum_of_multiples(num)
   return sum_array.reduce(:+)
 end
 
-return  sum_array(1000)
+sum_of_multiples(1000)
+# 233168

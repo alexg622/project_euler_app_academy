@@ -1,4 +1,4 @@
-#  Even Fibonacci numbers
+# Even Fibonacci numbers
 # Problem 2
 
 def even_fib(num)
@@ -18,3 +18,4 @@ def even_fib(num)
 end
 
 even_fib(4000000)
+# 4613732

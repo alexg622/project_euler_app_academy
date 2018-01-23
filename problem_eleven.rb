@@ -79,3 +79,4 @@ def greatest_product_in_grid(data)
 end
 
 greatest_product_in_grid(nested_array)
+# 70600674

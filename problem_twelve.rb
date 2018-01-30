@@ -1,8 +1,6 @@
 # High divisible triangular number
 # Problem 12
 
-require 'prime'
-
 def triangle_number(num)
   sum = 0
   for i in 1..num
@@ -10,18 +8,16 @@ def triangle_number(num)
   end
   return sum
 end
-triangle_number(7)
 
 def factors_of_number(value)
   factors = 0
-  for i in 1..value
+  for i in 1..Math.sqrt(value)
     if value % i == 0
-      factors += 1
+      factors += 2
     end
   end
   return factors
 end
-factors_of_number(28)
 
 counter = 1
 i = 0
@@ -30,3 +26,4 @@ until factors_of_number(i) > 500
   counter += 1
 end
 p i
+# 76576500

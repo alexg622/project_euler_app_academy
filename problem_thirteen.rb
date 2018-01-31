@@ -105,6 +105,5 @@ big_num = "37107287533902102798797998220837590246510135740250
 holder = []
 big_num.split(" ").each { |val| holder << val.to_i }
 big_sum = holder.reduce(:+)
-p big_sum
 big_sum.to_s.split("")[0...10].join("").to_i
 # 5537376230

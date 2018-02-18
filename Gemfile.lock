@@ -1,10 +1,12 @@
 GEM
   specs:
+    humanize (1.7.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  humanize
 
 BUNDLED WITH
    1.16.1
